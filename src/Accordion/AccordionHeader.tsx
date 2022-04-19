@@ -27,7 +27,7 @@ const AccordionHeader: BsPrefixRefForwardingComponent<
   (
     {
       // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-      as: Component = 'h2',
+      as: Component = 'h6',
       bsPrefix,
       className,
       children,
